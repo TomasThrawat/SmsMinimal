@@ -24,4 +24,9 @@ object SmsStore {
         messages.add(message)
         listener?.invoke()
     }
+
+    fun clear() {
+        messages.clear()
+        listener?.invoke()
+    }
 }

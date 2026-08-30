@@ -40,6 +40,10 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = adapter
 
+        findViewById<TextView>(R.id.clearButton).setOnClickListener {
+            SmsStore.clear()
+        }
+
         SmsStore.setListener { refreshList() }
 
         ensurePermissions()

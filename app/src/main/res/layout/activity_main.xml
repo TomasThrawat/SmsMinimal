@@ -22,4 +22,18 @@
         android:textColor="@color/dim_text"
         android:textSize="16sp" />
 
+    <TextView
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="8dp"
+        android:text="@string/clear_all"
+        android:textColor="@color/light_text"
+        android:textSize="14sp"
+        android:clickable="true"
+        android:focusable="true" />
+
 </FrameLayout>

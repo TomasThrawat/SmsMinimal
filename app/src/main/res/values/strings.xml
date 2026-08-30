@@ -3,4 +3,5 @@
     <string name="app_name">SMS Minimal</string>
     <string name="empty_state">لا رسائل بعد</string>
     <string name="grant_permission">اسمح بإذن استقبال الرسائل</string>
+    <string name="clear_all">مسح الكل</string>
 </resources>
